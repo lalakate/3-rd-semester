@@ -12,8 +12,6 @@
 #include "Flash.h"
 #include "HUD.h"
 
-namespace Sonar
-{
     class GameState : public State
     {
     public:
@@ -55,4 +53,3 @@ namespace Sonar
         sf::Sound _pointSound;
 
     };
-}
