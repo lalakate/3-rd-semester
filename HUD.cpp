@@ -2,8 +2,6 @@
 
 #include <string>
 
-namespace Sonar
-{
     HUD::HUD(GameDataRef data) : _data(data)
     {
         _scoreText.setFont(this->_data->assets.GetFont("Flappy Font"));
@@ -32,4 +30,3 @@ namespace Sonar
     {
         _scoreText.setString(std::to_string(score));
     }
-}
