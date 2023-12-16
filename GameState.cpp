@@ -7,8 +7,6 @@
 
 #include <iostream>
 
-namespace Sonar
-{
     GameState::GameState(GameDataRef data) : _data(data)
     {
 
@@ -185,4 +183,3 @@ namespace Sonar
 
         this->_data->window.display();
     }
-}
