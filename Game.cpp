@@ -4,9 +4,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-
-namespace Sonar
-{
     Game::Game(int width, int height, std::string title)
     {
         srand(time(NULL));
@@ -51,4 +48,3 @@ namespace Sonar
             this->_data->machine.GetActiveState()->Draw(interpolation);
         }
     }
-}
