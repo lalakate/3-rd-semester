@@ -6,8 +6,6 @@
 #include <iostream>
 #include <fstream>
 
-namespace Sonar
-{
     GameOverState::GameOverState(GameDataRef data, int score) : _data(data), _score(score)
     {
 
@@ -132,4 +130,3 @@ namespace Sonar
 
         this->_data->window.display();
     }
-}
