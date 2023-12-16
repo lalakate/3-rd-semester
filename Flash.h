@@ -4,8 +4,6 @@
 #include "Game.h"
 #include "DEFINITIONS.h"
 
-namespace Sonar
-{
     class Flash
     {
     public:
@@ -23,4 +21,3 @@ namespace Sonar
         bool _flashOn;
 
     };
-}
