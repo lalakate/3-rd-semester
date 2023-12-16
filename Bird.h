@@ -7,9 +7,7 @@
 
 #include <vector>
 
-namespace Sonar
-{
-    class Bird
+class Bird
     {
     public:
         Bird(GameDataRef data);
@@ -42,4 +40,3 @@ namespace Sonar
         float _rotation;
 
     };
-}
