@@ -1,8 +1,6 @@
 #include "Bird.h"
 
-namespace Sonar
-{
-    Bird::Bird(GameDataRef data) : _data(data)
+ Bird::Bird(GameDataRef data) : _data(data)
     {
         _animationIterator = 0;
 
@@ -98,4 +96,3 @@ namespace Sonar
     {
         return _birdSprite;
     }
-}
