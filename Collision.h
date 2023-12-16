@@ -2,8 +2,6 @@
 
     #include <SFML/Graphics.hpp>
 
-    namespace Sonar
-    {
         class Collision
         {
         public:
@@ -14,4 +12,3 @@
             bool CheckSpriteCollision(sf::Sprite sprite1, float scale1, sf::Sprite sprite2, float scale2);
 
         };
-    }
