@@ -3,9 +3,7 @@
 #include <map>
 #include <SFML/Graphics.hpp>
 
-namespace Sonar
-{
-    class AssetManager
+ class AssetManager
     {
     public:
         AssetManager() { }
@@ -21,4 +19,3 @@ namespace Sonar
         std::map<std::string, sf::Texture> _textures;
         std::map<std::string, sf::Font> _fonts;
     };
-}
