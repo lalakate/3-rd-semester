@@ -1,9 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include "AssetManager.h"
 
-namespace Sonar
-{
-    void AssetManager::LoadTexture(std::string name, std::string fileName)
+ void AssetManager::LoadTexture(std::string name, std::string fileName)
     {
         sf::Texture tex;
 
@@ -32,4 +30,3 @@ namespace Sonar
     {
         return this->_fonts.at(name);
     }
-}
