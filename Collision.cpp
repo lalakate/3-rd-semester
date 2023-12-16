@@ -1,8 +1,7 @@
 #include "Collision.h"
 #include <iostream>
-namespace Sonar
-{
-    Collision::Collision()
+
+Collision::Collision()
     {
     }
 
@@ -42,4 +41,3 @@ namespace Sonar
             return false;
         }
     }
-}
