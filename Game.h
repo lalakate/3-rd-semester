@@ -7,8 +7,6 @@
 #include "AssetManager.h"
 #include "InputManager.h"
 
-namespace Sonar
-{
     struct GameData
     {
         StateMachine machine;
@@ -33,4 +31,3 @@ namespace Sonar
 
         void Run();
     };
-}
