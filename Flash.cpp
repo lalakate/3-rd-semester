@@ -1,7 +1,5 @@
 #include "Flash.h"
 
-namespace Sonar
-{
     Flash::Flash(GameDataRef data) : _data(data)
     {
         _shape = sf::RectangleShape(sf::Vector2f(_data->window.getSize().x, _data->window.getSize().y));
@@ -45,4 +43,3 @@ namespace Sonar
     {
         _data->window.draw(_shape);
     }
-}
