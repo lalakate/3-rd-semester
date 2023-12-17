@@ -1,7 +1,5 @@
 #pragma once
 
-namespace Sonar
-{
     class State
     {
     public:
@@ -14,4 +12,3 @@ namespace Sonar
         virtual void Pause() { }
         virtual void Resume() { }
     };
-}
