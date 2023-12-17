@@ -3,8 +3,6 @@
 
 #include <iostream>
 
-namespace Sonar
-{
     Pipe::Pipe(GameDataRef data) : _data(data)
     {
         _landHeight = this->_data->assets.GetTexture("Land").getSize().y;
@@ -103,4 +101,3 @@ namespace Sonar
     {
         return scoringPipes;
     }
-}
