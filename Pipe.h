@@ -4,8 +4,6 @@
 #include "Game.h"
 #include <vector>
 
-namespace Sonar
-{
     class Pipe
     {
     public:
@@ -31,4 +29,3 @@ namespace Sonar
         int _pipeSpawnYOffset;
 
     };
-}
