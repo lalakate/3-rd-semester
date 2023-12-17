@@ -1,8 +1,6 @@
 #include "Land.h"
 #include "DEFINITIONS.h"
 
-namespace Sonar
-{
     Land::Land(GameDataRef data) : _data(data)
     {
         sf::Sprite sprite(this->_data->assets.GetTexture("Land"));
@@ -45,4 +43,3 @@ namespace Sonar
     {
         return _landSprites;
     }
-}
