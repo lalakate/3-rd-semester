@@ -4,8 +4,6 @@
 #include "State.h"
 #include "Game.h"
 
-namespace Sonar
-{
     class MainMenuState : public State
     {
     public:
@@ -24,4 +22,3 @@ namespace Sonar
         sf::Sprite _title;
         sf::Sprite _playButton;
     };
-}
