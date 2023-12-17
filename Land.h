@@ -4,8 +4,6 @@
 #include "Game.h"
 #include <vector>
 
-namespace Sonar
-{
     class Land
     {
     public:
@@ -22,4 +20,3 @@ namespace Sonar
         std::vector<sf::Sprite>_landSprites;
 
     };
-}
