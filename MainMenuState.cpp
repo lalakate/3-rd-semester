@@ -7,8 +7,6 @@
 
 #include <iostream>
 
-namespace Sonar
-{
     MainMenuState::MainMenuState(GameDataRef data) : _data(data)
     {
 
@@ -62,4 +60,3 @@ namespace Sonar
 
         this->_data->window.display();
     }
-}
