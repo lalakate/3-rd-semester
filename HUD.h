@@ -5,8 +5,6 @@
 #include "DEFINITIONS.h"
 #include "Game.h"
 
-namespace Sonar
-{
     class HUD
     {
     public:
@@ -22,4 +20,3 @@ namespace Sonar
         sf::Text _scoreText;
 
     };
-}
