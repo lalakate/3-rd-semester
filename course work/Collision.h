@@ -1,0 +1,20 @@
+#ifndef FLAPPY_BIRD_COURSE_WORK_COLLISION_H
+#define FLAPPY_BIRD_COURSE_WORK_COLLISION_H
+
+#pragma once
+
+#include <SFML/Graphics.hpp>
+
+class Collision {
+public:
+    Collision();
+
+    ~Collision();
+
+    bool CheckSpriteCollision(sf::Sprite sprite1, sf::Sprite sprite2);
+
+    bool CheckSpriteCollision(sf::Sprite sprite1, float scale1, sf::Sprite sprite2, float scale2);
+};
+
+
+#endif //FLAPPY_BIRD_COURSE_WORK_COLLISION_H
